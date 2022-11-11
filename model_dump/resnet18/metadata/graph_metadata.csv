@@ -47,4 +47,4 @@ Add_44,Add,Tensor_Add_249,Tensor_Relu_187,,,,
 Relu_45,Relu,Tensor_Relu_187,Tensor_input.148,,,,
 GlobalAveragePool_46,GlobalAveragePool,Tensor_input.148,Tensor_Flatten_189,,,,
 Flatten_47,Flatten,Tensor_Flatten_189,Tensor_Gemm_190,,,,
-Gemm_48,Gemm,Tensor_Gemm_190,Tensor_191,,,,
+Gemm_48,Gemm,Tensor_Gemm_190,Tensor_191,,,Tensor_fc.weight,Tensor_fc.bias
